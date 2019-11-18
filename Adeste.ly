@@ -76,9 +76,9 @@ verseThree = \lyricmode {
       \new Voice = "soprano" { \voiceOne \soprano }
     >>
 
-    \new Lyrics \with {
-      \override VerticalAxisGroup #'staff-affinity = #CENTER
-    } \lyricsto "soprano" \verseOne
+    %\new Lyrics \with {
+    %  \override VerticalAxisGroup #'staff-affinity = #CENTER
+    %} \lyricsto "soprano" \verseOne
 
     \new Staff \with {
       midiInstrument = "choir aahs"
