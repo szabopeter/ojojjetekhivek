@@ -45,8 +45,23 @@ alto = \relative c' {
   d2 d4 d 
   e2 d4 d
   d4 d d e
-  d2 d4 a4 \break
-  a cis d cis
+  d2 d4 b4 \break
+  b (cis) d cis
+  d d d d
+  d2 cis4. d8
+  d2. r4 \break
+  d2 e8 (fis8) g4
+  g (fis) g2
+  d4 d e e
+  d2 d4 d4 \break
+  d1
+  (d2.) d4
+  d d d d
+  d2 d4 g
+  fis g d d8 (cis)
+  d2 d4 e
+  d2 d4. (b8)
+  b2. \bar ""
 }
 
 tenor = \relative c' {
