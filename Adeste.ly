@@ -70,7 +70,7 @@ verseThree = \lyricmode {
 \score {
   \new ChoirStaff <<
     \new Staff \with {
-      midiInstrument = "choir aahs"
+      midiInstrument = "violin"
       instrumentName = \markup \center-column { S }
     } <<
       \new Voice = "soprano" { \voiceOne \soprano }
@@ -92,7 +92,7 @@ verseThree = \lyricmode {
     %} \lyricsto "alto" \verseTwo
     
     \new Staff \with {
-      midiInstrument = "choir aahs"
+      midiInstrument = "bright acoustic"
       instrumentName = \markup \center-column { T }
     } <<
       \clef bass
@@ -100,7 +100,7 @@ verseThree = \lyricmode {
     >>
     
     \new Staff \with {
-      midiInstrument = "choir aahs"
+      midiInstrument = "cello"
       instrumentName = \markup \center-column { B }
     } <<
       \clef bass
