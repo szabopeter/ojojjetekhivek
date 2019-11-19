@@ -102,8 +102,25 @@ bass = \relative c {
   g2 fis4 fis
   g4 fis g c,
   d2 d4 e4 \break
-  
-  
+
+  e2 d4 a
+  d b fis g
+  a2 a4. d8
+  d2. r4 \break
+
+  b'2 a4 g
+  a2 g
+  fis4 g e c
+  d2 d4 r4 \break
+
+  r1
+  r1
+  r1
+  r2 r4 g
+  a g fis e
+  d (c) b c
+  d2 d4. (g,8)
+  g2.
 }
 
 verseOne = \lyricmode {
