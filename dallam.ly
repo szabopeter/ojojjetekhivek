@@ -13,7 +13,7 @@ global = {
 
 soprano = \relative c'' {
   \global
-  g4 
+  g4
   g2 d4 g4 
   a2 d,4 d4 
   b'4 a4 b4 c4
@@ -70,7 +70,27 @@ tenor = \relative c' {
   b2 b4 b
   c2 a4 a4
   g4 a g g
-  g2 fis4 r4
+  g2 fis4 g4 \break
+  
+  g2 a4 a
+  a g fis d
+  a'2 g4. fis8
+  fis2. r4 \break
+  
+  b2 c4 d
+  c2 d2
+  d4 g, b c
+  a4. (g8) fis4 b \break
+  
+  b a b c
+  b2. g4
+  g fis g a
+  g2 fis4 d'
+  d d a a
+  a2 g4 g
+  g2 fis4. (g8)
+  g2.
+  
 }
 
 bass = \relative c {
