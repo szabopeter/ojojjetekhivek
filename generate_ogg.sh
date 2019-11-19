@@ -1,1 +1,5 @@
-timidity -A200 -Ov Adeste.midi
+for midi in *.midi
+do
+    timidity -A200 -Ov "${midi}" &
+done
+wait
