@@ -8,7 +8,7 @@ global = {
   \time 4/4
   \partial 4
   \key g \major
-  \tempo 4=120
+  \tempo 4=100
 }
 
 soprano = \relative c'' {

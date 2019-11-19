@@ -3,7 +3,7 @@
 \score {
   \new ChoirStaff <<
     \new Staff \with {
-      midiInstrument = "violin"
+      midiInstrument = "choir aahs"
       instrumentName = \markup \center-column { S }
     } <<
       \new Voice = "soprano" { \voiceOne \soprano }
@@ -14,7 +14,7 @@
     %} \lyricsto "soprano" \verseOne
 
     \new Staff \with {
-      midiInstrument = "choir aahs"
+      midiInstrument = "violin"
       instrumentName = \markup \center-column { A }
     } <<
       \new Voice = "alto" { \voiceTwo \alto }
