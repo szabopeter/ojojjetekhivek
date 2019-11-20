@@ -11,6 +11,12 @@ global = {
   \tempo 4=100
 }
 
+globalb = {
+  \time 4/4
+  \partial 4
+  \key g \major
+}
+
 soprano = \relative c'' {
   \global
   g4
@@ -37,6 +43,26 @@ soprano = \relative c'' {
   fis2 g4 c
   b2 a4. (g4)
   g2.
+}
+
+sopranob = \relative c'' {
+  \globalb
+  r4 
+  d4. (c8) b (c) d (b)
+  c4. (b8) a (b) c (a)
+  b4 d g e
+  d2 d2 \break
+  
+  b4 (cis) d e
+  d cis8 (b) a4 d,
+  a'4 (d2) cis4
+  d2. r4 \break
+  
+  % TODO ff
+  g4. (fis8 e fis g e
+  fis4. e8 dis e fis dis
+  e4) b b8 (a) b (cis)
+  d2 d4 r4 \break
 }
 
 alto = \relative c' {

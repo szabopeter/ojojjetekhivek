@@ -22,3 +22,21 @@
   \layout { }
   \midi { }
 }
+\score {
+  \new ChoirStaff <<
+    \new Staff \with {
+      midiInstrument = "violin"
+      instrumentName = \markup \center-column { S }
+    } <<
+      \new Voice = "soprano2" { \voiceOne \sopranob }
+    >>
+    \new Staff \with {
+      midiInstrument = "bright acoustic"
+      instrumentName = \markup \center-column { A T B }
+    } <<
+      %\new Voice = "soprano2" { \voiceOne \sopranob }
+    >>
+  >>
+  \layout { }
+  \midi { }
+}
