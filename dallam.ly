@@ -11,12 +11,6 @@ global = {
   \tempo 4=100
 }
 
-globalb = {
-  \time 4/4
-  \partial 4
-  \key g \major
-}
-
 soprano = \relative c'' {
   \global
   g4
@@ -43,26 +37,6 @@ soprano = \relative c'' {
   fis2 g4 c
   b2 a4. (g4)
   g2.
-}
-
-sopranob = \relative c'' {
-  \globalb
-  r4 
-  d4. (c8) b (c) d (b)
-  c4. (b8) a (b) c (a)
-  b4 d g e
-  d2 d2 \break
-  
-  b4 (cis) d e
-  d cis8 (b) a4 d,
-  a'4 (d2) cis4
-  d2. r4 \break
-  
-  % TODO ff
-  g4. (fis8 e fis g e
-  fis4. e8 dis e fis dis
-  e4) b b8 (a) b (cis)
-  d2 d4 r4 \break
 }
 
 alto = \relative c' {
@@ -147,6 +121,54 @@ bass = \relative c {
   d (c) b c
   d2 d4. (g,8)
   g2.
+}
+
+globalb = {
+  \time 4/4
+  \partial 4
+  \key g \major
+  \set Score.currentBarNumber = #21
+  \set Score.barNumberVisibility = #all-bar-numbers-visible
+  \bar ""
+}
+
+sopranob = \relative c'' {
+  \globalb
+  r4 
+  d4. (c8) b (c) d (b)
+  c4. (b8) a (b) c (a)
+  b4 d g e
+  d2 d2 \break
+  
+  b4 (cis) d e
+  d cis8 (b) a4 d,
+  a'4 (d2) cis4
+  d2. r4 \break
+  
+  % TODO ff
+  g4. (fis8 e fis g e
+  fis4. e8 dis e fis dis
+  e4) b b8 (a) b (cis)
+  d2 d4 r4 \break
+}
+
+others = \relative c'' {
+  \globalb
+  g4
+  g2 d 4 g
+  a2 d,2
+  b'4 a b c
+  b2 a2 \break
+  
+  g2 fis4 e
+  fis g a b
+  fis2 e4. d8
+  d2. r4 \break
+  
+  d'2 c4 b
+  c2 b
+  a4 b g a
+  fis4. (e8) d g \break
 }
 
 verseOne = \lyricmode {
