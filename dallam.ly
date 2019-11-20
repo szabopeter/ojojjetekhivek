@@ -35,7 +35,7 @@ soprano = \relative c'' {
   b2 a4 b
   c b a g
   fis2 g4 c
-  b2 a4. (g4)
+  b2 a4. (g8)
   g2.
 }
 
@@ -167,7 +167,7 @@ others = \relative c'' {
   d'2 c4 b
   c2 b
   a4 b g a
-  fis4. (e8) d g \break
+  fis4. (e8) d4 g \break
 }
 
 verseOne = \lyricmode {
