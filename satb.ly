@@ -41,7 +41,6 @@
     >>
   >>
   \layout { }
-  \midi { }
 }
 
 \score {
@@ -69,5 +68,39 @@
     %} \lyricsto "alto" \verseTwo    
   >>
   \layout { }
+}
+
+\score {
+  \new ChoirStaff <<
+    \new Staff \with {
+      midiInstrument = "choir aahs"
+      instrumentName = \markup \center-column { S }
+    } <<
+      \new Voice = "soprano" { \voiceOne \soprano \voiceOne \sopranob }
+    >>
+
+    \new Staff \with {
+      midiInstrument = "violin"
+      instrumentName = \markup \center-column { A }
+    } <<
+      \new Voice = "alto" { \voiceTwo \alto \voiceOne \others }
+    >>
+    
+    \new Staff \with {
+      midiInstrument = "bright acoustic"
+      instrumentName = \markup \center-column { T }
+    } <<
+      \clef bass
+      \new Voice = "tenor" { \voiceOne \tenor }
+    >>
+    
+    \new Staff \with {
+      midiInstrument = "cello"
+      instrumentName = \markup \center-column { B }
+    } <<
+      \clef bass
+      \new Voice = "bass" { \voiceTwo \bass }
+    >>
+  >>
   \midi { }
 }

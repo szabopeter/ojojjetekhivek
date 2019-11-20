@@ -11,7 +11,6 @@
     >>
   >>
   \layout { }
-  \midi { }
 }
 \score {
   \new ChoirStaff <<
@@ -23,5 +22,18 @@
     >>
   >>
   \layout { }
+}
+\score {
+  \new ChoirStaff <<
+    \new Staff \with {
+      midiInstrument = "bright acoustic"
+      instrumentName = \markup \center-column { B }
+    } <<
+      \new Voice = "others" { 
+        \voiceTwo \bass
+        \voiceTwo \others 
+      }
+    >>
+  >>
   \midi { }
 }

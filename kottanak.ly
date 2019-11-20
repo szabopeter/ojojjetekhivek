@@ -8,7 +8,6 @@
     } <<
       \new Voice = "soprano" { \voiceOne \soprano }
       \new Voice = "alto" { \voiceTwo \alto }
-      \bar ""
     >>
 
     \new Staff \with {
@@ -21,7 +20,6 @@
     >>
   >>
   \layout { }
-  \midi { }
 }
 \score {
   \new ChoirStaff <<
@@ -39,5 +37,4 @@
     >>
   >>
   \layout { }
-  \midi { }
 }
