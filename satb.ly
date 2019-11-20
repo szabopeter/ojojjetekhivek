@@ -43,3 +43,31 @@
   \layout { }
   \midi { }
 }
+
+\score {
+  \new ChoirStaff <<
+    \new Staff \with {
+      midiInstrument = "choir aahs"
+      instrumentName = \markup \center-column { S }
+    } <<
+      \new Voice = "sopranob" { \voiceOne \sopranob }
+    >>
+
+    %\new Lyrics \with {
+    %  \override VerticalAxisGroup #'staff-affinity = #CENTER
+    %} \lyricsto "soprano" \verseOne
+
+    \new Staff \with {
+      midiInstrument = "violin"
+      instrumentName = \markup \center-column { A }
+    } <<
+      \new Voice = "others" { \voiceTwo \others }
+    >>
+    
+    %\new Lyrics \with {
+    %  \override VerticalAxisGroup #'staff-affinity = #CENTER
+    %} \lyricsto "alto" \verseTwo    
+  >>
+  \layout { }
+  \midi { }
+}
