@@ -49,6 +49,7 @@
       midiInstrument = "choir aahs"
       instrumentName = \markup \center-column { S }
     } <<
+      \partial 4
       \new Voice = "sopranob" { \voiceOne \sopranob }
     >>
 

@@ -125,7 +125,6 @@ bass = \relative c {
 
 globalb = {
   \time 4/4
-  \partial 4
   \key g \major
   \set Score.currentBarNumber = #21
   \set Score.barNumberVisibility = #all-bar-numbers-visible

@@ -17,6 +17,7 @@
       midiInstrument = "bright acoustic"
       instrumentName = \markup \center-column { A }
     } <<
+      \partial 4
       \new Voice = "others" { \voiceTwo \others }
     >>
   >>
