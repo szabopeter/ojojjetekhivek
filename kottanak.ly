@@ -27,6 +27,7 @@
       midiInstrument = "violin"
       instrumentName = \markup \center-column { S }
     } <<
+      \partial 4
       \new Voice = "soprano2" { \voiceOne \sopranob }
     >>
     \new Staff \with {

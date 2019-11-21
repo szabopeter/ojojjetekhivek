@@ -20,6 +20,7 @@
       instrumentName = \markup \center-column { S }
     } <<
       \new Voice = "sopranob" {
+        \partial 4
         \voiceOne \sopranob
       }
     >>
