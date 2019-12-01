@@ -1,7 +1,12 @@
 \version "2.18.2"
 
 \header {
-  title = "Adeste, fideles"
+  title = "Ó, jöjjetek hívek"
+  subtitle = "(Adeste, fideles)"
+  composer = \markup \right-column {
+    "Words and melody by J.F. Wade"
+    "arranged by D. Willcocks"
+  }
 }
 
 global = {
@@ -125,86 +130,6 @@ bass = \relative c {
   d (c) b c
   d2 d4. (g,8)
   g2.
-}
-
-globalb = {
-  \time 4/4
-  \key g \major
-  \set Score.currentBarNumber = #21
-  \set Score.barNumberVisibility = #all-bar-numbers-visible
-  \bar ""
-}
-
-sopranob = \relative c'' {
-  \globalb
-  r4 
-  d4. (c8) b (c) d (b)
-  c4. (b8) a (b) c (a)
-  b4 d g e
-  d2 d2 \break
-  
-  b4 (cis) d e
-  d cis8 (b) a4 d,
-  a'4 (d2) cis4
-  d2. r4 \break
-  
-  % TODO ff
-  g4. (fis8 e fis g e
-  fis4. e8 dis e fis dis
-  e4) b b8 (a) b (cis)
-  d2 d4 r4 \break
-  
-  r1
-  r4 d, d'2
-  (d4) r4 r2
-  r4 d, d'2
-  (d4) g, d' e
-  fis8 (g fis e) d4 d4
-  d4 (g2) fis4
-  g2. g,4
-  
-  g2 d4 g4 
-  a2 d,4 d4 
-  b'4 a4 b4 c4
-  b2 a4 g4 \break
-
-  g2 fis4 e4
-  fis g a b
-  fis2 e4. d8 
-  d2. r4 \break
-
-  d'2 c4 b
-  c2 b2
-  a4 b g a 
-  fis4. (e8) d4 g4 \break
-
-  g4 fis g a
-  g2 d4 b'
-  b a b c
-  b2 a4 b
-  c b a g
-  fis2 g4 c
-  b2 a4. (g8)
-  g1 \bar "|."
-}
-
-others = \relative c'' {
-  \globalb
-  g4
-  g2 d 4 g
-  a2 d,2
-  b'4 a b c
-  b2 a2 \break
-  
-  g2 fis4 e
-  fis g a b
-  fis2 e4. d8
-  d2. r4 \break
-  
-  d'2 c4 b
-  c2 b
-  a4 b g a
-  fis4. (e8) d4 g \break
 }
 
 verseOne = \lyricmode {
