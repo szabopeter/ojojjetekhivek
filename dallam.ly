@@ -13,7 +13,7 @@ global = {
   \time 4/4
   \partial 4
   \key g \major
-  \tempo 4=100
+  %\tempo 4=100
 }
 
 soprano = \relative c'' {
@@ -134,14 +134,19 @@ bass = \relative c {
 
 verseOne = \lyricmode {
   \set stanza = "1."
-  hi
-  
+  Ó, jöj -- je -- tek hí -- vek, ma lel -- ki nagy ö -- röm -- mel,
+  A já -- szol -- hoz Bet -- le -- hem -- be jöj -- je -- tek el!
+  Meg -- szü -- le -- tett az an -- gya -- lok Ki -- rá -- lya:
+  Ó, jöj -- je -- tek i -- mád -- juk, 
+  Ó, jöj -- je -- tek i -- mád -- juk, 
+  Ó, jöj -- je -- tek i -- mád -- juk az Úr Krisz -- tust!
 }
 
 verseTwo = \lyricmode {
   \set stanza = "2."
-  ha
-  
+  Az é -- let -- nek szent U -- ra, di -- cső -- ség Ki -- rá -- lya,
+  Ott fek -- szik a já -- szol mé -- lyén nagy sze -- gé -- nyen.
+  Nagy di -- cső -- sé -- ges, szent és ö -- rök Is -- ten!
 }
 
 verseThree = \lyricmode {

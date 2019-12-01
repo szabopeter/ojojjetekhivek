@@ -7,6 +7,7 @@
       instrumentName = \markup \center-column { S A }
     } <<
       \new Voice = "soprano" { \voiceOne \soprano }
+      \addlyrics { \verseOne }
       \new Voice = "alto" { \voiceTwo \alto }
     >>
 
@@ -16,6 +17,7 @@
     } <<
       \clef bass
       \new Voice = "tenor" { \voiceOne \tenor }
+      \addlyrics { \verseTwo }
       \new Voice = "bass" { \voiceTwo \bass }
     >>
   >>
