@@ -59,7 +59,7 @@
 
     \new Staff \with {
       midiInstrument = "violin"
-      instrumentName = \markup \center-column { A }
+      instrumentName = \markup \center-column { ATB }
     } <<
       \new Voice = "others" { \voiceTwo \others }
     >>
@@ -84,7 +84,7 @@
       midiInstrument = "violin"
       instrumentName = \markup \center-column { A }
     } <<
-      \new Voice = "alto" { \voiceTwo \alto \voiceOne \others }
+      \new Voice = "alto" { \voiceTwo \alto \voiceTwo \others }
     >>
     
     \new Staff \with {
