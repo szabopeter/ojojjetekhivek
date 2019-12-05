@@ -7,6 +7,7 @@
       instrumentName = \markup \center-column { S }
     } <<
       \new Voice = "soprano" { \voiceOne \soprano }
+      \addlyrics { \verseOne }
     >>
 
     %\new Lyrics \with {
@@ -38,6 +39,9 @@
     } <<
       \clef bass
       \new Voice = "bass" { \voiceTwo \bass }
+      \addlyrics { \verseTwo }
+      \addlyrics { \verseThree }
+      \addlyrics { \verseFour }
     >>
   >>
   \layout { }
