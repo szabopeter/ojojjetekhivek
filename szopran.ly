@@ -11,7 +11,7 @@
       }
     >>
   >>
-  \layout { }
+  %\layout { }
   \midi { }
 }
 

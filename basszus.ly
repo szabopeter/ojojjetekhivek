@@ -10,6 +10,6 @@
       \new Voice = "bass" { \voiceTwo \bass }
     >>
   >>
-  \layout { }
+  %\layout { }
   \midi { }
 }

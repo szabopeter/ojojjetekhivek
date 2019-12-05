@@ -9,6 +9,6 @@
       \new Voice = "alto" { \voiceTwo \alto }
     >>
   >>
-  \layout { }
+  %\layout { }
   \midi { }
 }

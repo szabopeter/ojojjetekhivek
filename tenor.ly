@@ -10,6 +10,6 @@
       \new Voice = "tenor" { \voiceOne \tenor }
     >>
   >>
-  \layout { }
+  %\layout { }
   \midi { }
 }
