@@ -31,6 +31,9 @@
     } <<
       \clef bass
       \new Voice = "tenor" { \voiceOne \tenor }
+      \addlyrics { \verseTwo }
+      \addlyrics { \verseThree }
+      \addlyrics { \verseFour }
     >>
     
     \new Staff \with {
@@ -39,9 +42,6 @@
     } <<
       \clef bass
       \new Voice = "bass" { \voiceTwo \bass }
-      \addlyrics { \verseTwo }
-      \addlyrics { \verseThree }
-      \addlyrics { \verseFour }
     >>
   >>
   \layout { }

@@ -138,7 +138,7 @@ verseOne = \lyricmode {
   A já -- szol -- hoz Bet -- le -- hem -- be jöj -- je -- tek el!
   Meg -- szü -- le -- tett az an -- gya -- lok Ki -- rá -- lya:
   Ó, jöj -- je -- tek i -- mád -- juk, 
-  Ó, jöj -- je -- tek i -- mád -- juk, 
+  Ó, jöj -- je -- tek i -- mád -- juk,
   Ó, jöj -- je -- tek i -- mád -- juk az Úr Krisz -- tust!
 }
 
@@ -147,6 +147,9 @@ verseTwo = \lyricmode {
   Az é -- let -- nek szent U -- ra, di -- cső -- ség Ki -- rá -- lya,
   Ott fek -- szik a já -- szol mé -- lyén nagy sze -- gé -- nyen.
   Nagy di -- cső -- sé -- ges, szent és ö -- rök Is -- ten!
+  Ó, jöj -- je -- tek i -- mád,
+  Ó, jöj -- je -- tek i -- mád -- juk,
+  Ó, jöj -- je -- tek i -- mád -- juk az Úr Krisz -- tust!
 }
 
 verseThree = \lyricmode {
