@@ -18,6 +18,8 @@
       \clef bass
       \new Voice = "tenor" { \voiceOne \tenor }
       \addlyrics { \verseTwo }
+      \addlyrics { \verseThree }
+      \addlyrics { \verseFour }
       \new Voice = "bass" { \voiceTwo \bass }
     >>
   >>

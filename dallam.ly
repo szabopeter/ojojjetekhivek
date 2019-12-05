@@ -151,7 +151,14 @@ verseTwo = \lyricmode {
 
 verseThree = \lyricmode {
   \set stanza = "3."
-  ho
-  
+  Ti an -- gya -- li lel -- kek, ma zeng -- je -- tek az Úr -- nak,
+  És vi -- gad -- va ör -- vend -- je -- tek, buz -- gó hí -- vek!
+  A ma -- gas menny - ben di -- cső -- ség Is -- ten -- nek!
 }
 
+verseFour = \lyricmode {
+  \set stanza = "4."
+  Úr Jé -- zus, ki ez na -- pon é -- ret -- tünk szü -- let -- tél,
+  Csak té -- ge -- det il -- let szí -- vünk tisz -- te -- le -- te!
+  Is -- te -- ni Gyer -- mek, tes -- tet öl -- tött I -- ge!
+}
