@@ -26,7 +26,7 @@ soprano = \relative c'' {
 
   g2 fis4 e4
   fis g a b
-  fis2 e4. d8 
+  fis2 e4 d4
   d2. r4 \break
 
   d'2 c4 b
@@ -58,7 +58,7 @@ alto = \relative c' {
 
   b (cis) d cis
   d d d d
-  d2 cis4. d8
+  d2 cis4 d4
   d2. r4 \break
 
   d2 e8 (fis8) g4
@@ -86,7 +86,7 @@ tenor = \relative c' {
 
   g2 a4 a
   a g fis d
-  a'2 g4. fis8
+  a'2 g4 fis4
   fis2. r4 \break
 
   b2 c4 d
@@ -114,7 +114,7 @@ bass = \relative c {
 
   e2 d4 a
   d b fis g
-  a2 a4. d8
+  a2 a4 d4
   d2. r4 \break
 
   b'2 a4 g
@@ -145,7 +145,7 @@ verseOne = \lyricmode {
 verseTwo = \lyricmode {
   \set stanza = "2."
   Az é -- let -- nek szent U -- ra, di -- cső -- ség Ki -- rá -- lya,
-  Ott fek -- szik a já -- szol mé -- lyén nagy sze -- gé -- nyen.
+  Itt fek -- szik a já -- szol mé -- lyén nagy sze -- gé -- nyen.
   Nagy di -- cső -- sé -- ges, szent és ö -- rök Is -- ten!
   Ó, jöj -- je -- tek i -- mád,
   Ó, jöj -- je -- tek i -- mád -- juk,
